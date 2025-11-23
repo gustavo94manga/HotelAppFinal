@@ -1,0 +1,52 @@
+# === Java / Spring Boot standard ignores ===
+/target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.iml
+*.iws
+*.ipr
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.bak
+*.orig
+.metadata/
+
+
+# === OS / IDE ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+*.tmp
+*.bak
+*.swp
+*.swo
+*.err
+*.out
+*.pid
+*.seed
+*.pid.lock
+*.gz
+
+# === Maven ===
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# === Spring Boot Sensitive Files ===
+src/main/java/com/angel/constants/ApplicationConstants.java
+src/main/java/com/angel/config/ProjectSecurityProdConfig.java
+src/main/java/com/angel/config/ProjectSecurityConfig.java
+src/main/java/com/angel/config/HotelAppProdUsernamePwdAuthenticationProvider.java
+
+# === Properties / Environment ===
+application.properties
+application.yml
+.env
+*.key
+*.pem
